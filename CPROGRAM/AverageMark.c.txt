@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float m1,m2,m3,m4,m5,tm,avg;
+    printf("Enter the five subject marks:");
+    scanf("%f%f%f%f%f",&m1,&m2,&m3,&m4,&m5);
+    tm=m1+m2+m3+m4+m5;
+    avg=tm/5;
+    printf("average mark is:%f",avg);
+    return 0;
+}
